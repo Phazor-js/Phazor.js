@@ -48,6 +48,8 @@ Load Phazor.js Installer without any downloads:<br>
  23. `pjs.cwarn("text")` -> Like console warn but just easy version.
  24. `pjs.cerror("text")` -> Like console error but just easy version.
  25. `pjs.terror("text")` -> Like throw new Error but just easy version.
+ 26. `pjs.cstime("text")` -> Start console timer.
+ 27. `pjs.cetime("text")` -> End console timer.
 
 ### PhazorElement properties
 1. `Element.dom` -> Returns the DOM element of the PhazorElement.
