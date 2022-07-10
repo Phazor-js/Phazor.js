@@ -1,25 +1,25 @@
-# BoomHost API | Phazor.js 
-# What is phazor.JS?
-Phazor.JS is an boomhost framework that provides functions similiar to jquery.<br>
-It is not based on jquery, all code is writtten by PlurrYT.<br>
+# Phazor.js 
+## What is phazor.JS?
+Phazor.JS is framework by boomhost.ml that provides functions similiar to jquery.<br>
+It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
 <br>
-# How does it work?
-You can find the documentation [here](/docs) and the news [here](/news)
+## How does it work?
+You can find the documentation in the buttom.
 
-# Is it paid?
+## Is it paid?
 No. Phazor.JS is like boomhost a free-to-use framework with no payment ever needed to access any feature. However, donations are optional.<br>
 
-# How can i use it?
+## How can i use it?
 ### Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.
 Load Phazor.js Installer without any downloads:<br>
 ```HTML
-<script id="phazorJS" src="http://api.boomhost.ml/pjs.js"></script>
+<script id="phazorJS" src="http://phazor.boomhost.ml/pjs/stable.js"></script>
 ```
-There is versions of Phazor.JS (STABLE):<br>
-STABLE V2: 
-```HTML
-<script id="phazorJS" src="http://api.boomhost.ml/pjs.js"></script>
-```
+
+
+
+
+
 <br>
 
 ## The ultimate how-to-use tutorial
