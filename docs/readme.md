@@ -15,7 +15,15 @@ Load Phazor.js Installer without any downloads:<br>
 ```HTML
 <script id="phazorJS" src="http://pjs.boomhost.ml/pjs/stable.js"></script>
 ```
-
+Or recommended
+```HTML
+var importpjs = document.createElement('script'); // creating script tag
+importpjs.src = "https://pjs.boomhost.ml/pjs/stable.js"; // version url
+importpjs.onload = function () {
+    // You script will be here
+}; // When script fully loaded then work
+document.head.appendChild(importpjs); // auto paste to header
+```
 
 
 
