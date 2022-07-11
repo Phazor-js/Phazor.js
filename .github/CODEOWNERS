@@ -1,6 +1,6 @@
 * @pythoniaweb
 
-/docs/pjs/ @org/phazor-js
-/docs/pjs/public.js @org/phazor-js
-/docs/pjs/stable.js @org/phazor-js
-/docs/pjs/staff.js @org/phazor-js
+/docs/pjs/ @phazor-js/staff
+/docs/pjs/public.js @phazor-js/staff
+/docs/pjs/stable.js @phazor-js/staff
+/docs/pjs/staff.js @phazor-js/staff
