@@ -1,6 +1,8 @@
 * @pythoniaweb
-
-/docs/README.md @phazor-js/staff
-/docs/pjs/staff.js
-/docs/pjs/public.js
+/docs/pjs/staff.js @phazor-js/staff
+/docs/pjs/public.js @phazor-js/staff
 /docs/*.md @phazor-js/staff
+/docs/*.md @phazor-js/admin
+/docs/pjs/staff.js @phazor-js/admin
+/docs/pjs/public.js @phazor-js/admin
+/docs/pjs/stable.js @phazor-js/admin
