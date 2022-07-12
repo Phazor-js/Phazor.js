@@ -1,4 +1,5 @@
 * @pythoniaweb
+* @phazor-js/owner
 /docs/pjs/staff.js @phazor-js/staff
 /docs/pjs/public.js @phazor-js/staff
 /docs/*.md @phazor-js/staff
