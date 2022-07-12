@@ -1,1 +1,3 @@
-/docs/pjs/*.js linguist-detectable=false
+/docs/pjs/*.js linguist-detectable=true
+
+*.md linguist-detectable=false
