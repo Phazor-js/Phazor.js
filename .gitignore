@@ -1,0 +1,8 @@
+*.js
+*.html
+*.css
+*.md
+/docs/*.html
+/docs/*.md
+/docs/*css
+/docs/pjs/*.js
