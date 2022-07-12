@@ -1,10 +1,3 @@
-/docs/*.html linguist-detectable=true
-/docs/*.xml linguist-detectable=true
-/docs/*.css linguist-detectable=true
-/docs/pjs/*.js linguist-detectable=true
-/docs/*.json linguist-detectable=true
-/docs/pjs/*.json linguist-detectable=true
-/docs/*.txt linguist-detectable=true
-/docs/*.md linguist-detectable=true
-/.github/*.yml linguist-detectable=true
-/.github/workflows/*.yml linguist-detectable=true
+* linguist-detectable=true
+/docs/* linguist-detectable=true
+/docs/pjs/* linguist-detectable=true
