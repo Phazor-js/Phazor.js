@@ -1,4 +1,3 @@
-* linguist-detectable=true
-*.md linguist-detectable=true
-/docs/* linguist-detectable=true
-/docs/pjs/* linguist-detectable=true
+
+*.js linguist-detectable=true
+
