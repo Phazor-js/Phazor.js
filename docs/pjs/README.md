@@ -1,3 +1,3 @@
-# This is Phazor.js Version Folder!
-Want to contribute?
-Become contributor https://github.com/Phazor-js/Phazor.js/
+# Version Folder
+Puazor.js is allowed to edit to everyone!
+But please edit file public.js ONLY.
