@@ -13,34 +13,22 @@
 </head>
 
 <body>
-<!--div style="text-align: center; width: 100%;">
-<img href="" style="" src="/favicon.png"></img>
-<br><br><br><br><br><br><br><br>
-</div>
-	<my-element>By BoomHost.ml</my-element>
-    <hr -->
-    
+
+
 	<div id="readme">
 	</div>
-	<br><br>
+	
 
     <script>
         
-		setTimeout(function(){
+		
 			let converter = new showdown.Converter();
     		pjs.get('/readme.md', function(text) {
 				let html = converter.makeHtml(text);
 				pjs("#readme").html(html);
-			});
+			
             
-			//pjs("img").set(22, -5)
-			//setInterval(function(){
-			//	pjs("img").moveX(-10)
-			//		setTimeout(function() { 
-			//		pjs("img").moveX(10)
-			//	}, 250)
-		//	}, 500)
-		//},200);
+
         
     </script>
    
