@@ -43,8 +43,9 @@ Currently being supported with security updates.
 | 1.0.x   | :white_check_mark: |
 | < Alpha   | :x:                |
 
-🚨 > Warning: We recomend using stable.js
-🚨 > Dont use staff.js or public.js
+Warning: We recomend using stable.js
+
+Dont use staff.js or public.js
 
 ## 🗡️ Reporting a Vulnerability
 
