@@ -33,19 +33,19 @@
   <a href="/SECURITY.md">Security</a>
 </p>
 
-## Security Policy
-<h3> Supported Versions</h3>
+## ⚔️ Security Policy
+<h3>🗃️ Supported Versions</h3>
 
 Currently being supported with security updates.
 
-| Version | Supported          |
+| 💾 Version | ⚔️ Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 | < Alpha   | :x:                |
 
-Warning: We recomend using stable.js
-Dont use staff.js or public.js
+🚨 > Warning: We recomend using stable.js
+🚨 > Dont use staff.js or public.js
 
-## Reporting a Vulnerability
+## 🗡️ Reporting a Vulnerability
 
-Create issue to report vulnearbility
+🚨 Create issue to report vulnearbility
