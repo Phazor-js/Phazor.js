@@ -8,15 +8,9 @@
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
 <p align="center">
-  <img
-    alt="Pipeline Status"
-    src="https://github.com/hyperledger/aries-framework-javascript/workflows/Continuous%20Integration/badge.svg?branch=main"
-  />
-  <a
-    href="https://lgtm.com/projects/g/hyperledger/aries-framework-javascript/context:javascript"
-    ><img
+  <a><img
       alt="Language grade: JavaScript"
-      src="https://img.shields.io/lgtm/grade/javascript/g/hyperledger/aries-framework-javascript.svg?logo=lgtm&logoWidth=18"
+      src="https://img.shields.io/lgtm/grade/javascript/g/Phazor-js/Phazor.js.svg?logo=lgtm&logoWidth=18"
   /></a>
   <a href="https://codecov.io/gh/hyperledger/aries-framework-javascript/"
     ><img
