@@ -3,7 +3,7 @@
   <img
     alt="Hyperledger Aries logo"
     src="/docs/favicon.png"
-    height="250px"
+    height="200px"
   />
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
