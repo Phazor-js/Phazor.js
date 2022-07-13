@@ -8,25 +8,16 @@
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
 <p align="center">
-  <a><img
-      alt="Language grade: JavaScript"
-      src="https://img.shields.io/lgtm/grade/javascript/g/Phazor-js/Phazor.js.svg?logo=lgtm&logoWidth=18"
-  /></a>
-  <a href="https://codecov.io/gh/hyperledger/aries-framework-javascript/"
-    ><img
-      alt="Codecov Coverage"
-      src="https://img.shields.io/codecov/c/github/hyperledger/aries-framework-javascript/coverage.svg?style=flat-square"
-  /></a>
   <a
-    href="https://raw.githubusercontent.com/hyperledger/aries-framework-javascript/main/LICENSE"
+    href="/LICENSE"
     ><img
       alt="License"
-      src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"
+      src="https://img.shields.io/badge/License-MIT%202.0-blue.svg"
   /></a>
-  <a href="https://www.typescriptlang.org/"
+  <a href="https://js.org/"
     ><img
-      alt="typescript"
-      src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg"
+      alt="JavaScript"
+      src="https://img.shields.io/badge/%3C%2F%3E-JavaScript-%230074c1.svg"
   /></a>
 </p>
 <br />
