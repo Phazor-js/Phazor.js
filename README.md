@@ -1,9 +1,9 @@
 <p align="center">
   <br />
   <img
-    alt="Hyperledger Aries logo"
+    alt="logo"
     src="/docs/favicon.png"
-    height="200px"
+    height="150px"
   />
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
