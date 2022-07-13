@@ -30,5 +30,5 @@
 <p align="center">
   <a href="/docs">Docs</a> &nbsp;|&nbsp;
   <a href="/docs/pjs/public.js" >Contribute</a> &nbsp;|&nbsp;
-  <a href="/SECURITY.md">Security</a> &nbsp;|&nbsp;
+  <a href="/SECURITY.md">Security</a>
 </p>
