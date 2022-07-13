@@ -25,3 +25,5 @@ jobs:
         stale-pr-message: 'This PR is not active!'
         stale-issue-label: 'no-issue-activity'
         stale-pr-label: 'no-pr-activity'
+        days-before-stale: 30
+        days-before-close: 5
