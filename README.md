@@ -27,7 +27,7 @@
   <a href="/"
     ><img
       alt="AutoMerge"
-      src="https://github.com/Phazor-js/Phazor.js/actions/workflows/auto-merge.yml/badge.svg"
+      src="https://github.com/Phazor-js/Phazor.js/actions/dependabot.yml/badge.svg"
   /></a>
 </p>
 <br />
