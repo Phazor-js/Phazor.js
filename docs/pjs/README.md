@@ -35,6 +35,7 @@
 
 ## 🗃️ Version Folder
 <h3>⚙️ Rules</h3>
+
  * Edit only public.js
  * Use only public.js
  * Dont abuse
