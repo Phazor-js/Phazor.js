@@ -22,7 +22,7 @@
   <a href="/"
     ><img
       alt="CodeQL"
-      src="https://github.com/Phazor-js/Phazor.js/actions/workflows/.yml/badge.svg"
+      src="https://github.com/Phazor-js/Phazor.js/actions/workflows/codeql-analysis.yml/badge.svg"
   /></a>
 </p>
 <br />
