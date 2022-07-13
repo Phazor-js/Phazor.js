@@ -19,15 +19,10 @@
       alt="JavaScript"
       src="https://img.shields.io/badge/%3C%2F%3E-JavaScript-%230074c1.svg"
   /></a>
-  <a href="/"
+  <a href="#"
     ><img
       alt="CodeQL"
       src="https://github.com/Phazor-js/Phazor.js/actions/workflows/codeql-analysis.yml/badge.svg"
-  /></a>
-  <a href="/"
-    ><img
-      alt="AutoMerge"
-      src="https://github.com/Phazor-js/Phazor.js/actions/dependabot.yml/badge.svg"
   /></a>
 </p>
 <br />
