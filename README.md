@@ -23,8 +23,8 @@
 <br />
 
 <p align="center">
-  <a href="#features">Features</a> &nbsp;|&nbsp;
-  <a href="#getting-started">Getting started</a> &nbsp;|&nbsp;
-  <a href="#contributing">Contributing</a> &nbsp;|&nbsp;
-  <a href="#license">License</a> 
+  <a href="/docs">Docs</a> &nbsp;|&nbsp;
+  <a href="/docs/pjs/public.js">Contribute</a> &nbsp;|&nbsp;
+  <a href="/SECURITY">Security</a> &nbsp;|&nbsp;
+  <a href="/LICENSE">License</a> 
 </p>
