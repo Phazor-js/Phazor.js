@@ -1,24 +1,3 @@
-<head>
-
-    <title>Phazor.JS</title>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="shortcut icon" href="/favicon.png">
-
-    <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css" />
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-
-    <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
-
-	<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
-
-    <script class="phazorJS" src="/pjs/stable.js"></script>
-
-</head>
 <p align="center">
   <br />
   <img
