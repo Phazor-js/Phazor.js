@@ -24,6 +24,7 @@
       alt="CodeQL"
       src="https://github.com/Phazor-js/Phazor.js/actions/workflows/codeql-analysis.yml/badge.svg"
   /></a>
+  <a href="https://www.codefactor.io/repository/github/pythoniaweb/phazor.js/overview/main"><img src="https://www.codefactor.io/repository/github/pythoniaweb/phazor.js/badge/main" alt="CodeFactor" /></a>
 </p>
 <br />
 
