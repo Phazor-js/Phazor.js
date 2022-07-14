@@ -1,5 +1,5 @@
 <p align="center">
-  <br />
+  <br /> 
   <img
     alt="logo"
     src="/docs/favicon.png"
