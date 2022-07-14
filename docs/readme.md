@@ -2,7 +2,7 @@
   <br /> 
   <img
     alt="logo"
-    src="/docs/favicon.png"
+    src="https://github.com/Phazor-js/Phazor.js/blob/main/favicon.png"
     height="150px"
   />
 </p>
