@@ -2,7 +2,7 @@
   <br /> 
   <img
     alt="logo"
-    src="/docs/favicon.png"
+    src="/favicon.png"
     height="150px"
   />
 </p>
