@@ -3,7 +3,7 @@
   <img
     alt="logo"
     src="https://raw.githubusercontent.com/Phazor-js/Phazor.js/gh-pages/favicon.png"
-    height="150px"
+    height="150px" 
   />
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
