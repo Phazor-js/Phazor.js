@@ -22,6 +22,7 @@ importpjs.onload = function () {
     pjs.get('/readme.md', function(text) {
     let html = converter.makeHtml(text);
     pjs("#readme").html(html);
+    };
 };
 document.head.appendChild(importpjs);
 </script>
