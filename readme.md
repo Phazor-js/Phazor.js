@@ -38,6 +38,7 @@
 Phazor.JS is framework by boomhost.ml that provides functions similiar to jquery.<br>
 It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
 <br>
+
 ## How does it work?
 You can find the documentation in the buttom.
 
