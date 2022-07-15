@@ -48,8 +48,8 @@ No. Phazor.JS is like boomhost a free-to-use framework with no payment ever need
 ## How can i use it?
 ### Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.
 Load Phazor.js Installer without any downloads:<br>
-```HTML
-<script id="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
+```diff
++ <script id="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
 ```
 Or recommended
 ```HTML
@@ -57,12 +57,11 @@ Or recommended
 var importpjs = document.createElement('script'); // creating script tag
 importpjs.src = "https://phazor.js.org/pjs/stable.js"; // version url
 importpjs.onload = function () {
-    // You script will be here
+ +   // You script will be here
 }; // When script fully loaded then work
 document.head.appendChild(importpjs); // auto paste to header
 </script>
 ```
-
 
 
 
