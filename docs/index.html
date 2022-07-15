@@ -9,25 +9,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
     <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
-    <script class="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
 </head>
 
 <body>
 	<div id="readme">
 	</div>
-
-    <script>
-        
-		
-			        let converter = new showdown.Converter();
-    		                pjs.get('/readme.md', function(text) {
-				let html = converter.makeHtml(text);
-				pjs("#readme").html(html);
-			
-            
-		
-        
-    </script>
+<script>
+var importpjs = document.createElement('script');
+importpjs.src = "https://phazor.js.org/pjs/stable.js";
+importpjs.onload = function () {
+    let converter = new showdown.Converter();
+    pjs.get('/readme.md', function(text) {
+    let html = converter.makeHtml(text);
+    pjs("#readme").html(html);
+};
+document.head.appendChild(importpjs);
+</script>
    
 </body>
 
