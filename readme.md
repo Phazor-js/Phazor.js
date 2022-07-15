@@ -43,10 +43,10 @@ It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
 You can find the documentation in the buttom.
 
 ## Is it paid?
-No. Phazor.JS is like boomhost a free-to-use framework with no payment ever needed to access any feature. However, donations are optional.<br>
+No. Phazor.JS is free-to-use framework with no payment ever needed to access any feature. However, donations are optional.<br>
 
 ## How can i use it?
-### Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.
+**Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.**
 Load Phazor.js Installer without any downloads:<br>
 ```HTML
 <script id="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
@@ -97,6 +97,7 @@ document.head.appendChild(importpjs); // auto paste to header
  27. `pjs.cetime("text")` -> End console timer.
 
 ### PhazorElement properties
+TIP: `pjs("selector")` -> Returns a parsed PhazorElement.
 1. `Element.dom` -> Returns the DOM element of the PhazorElement.
 2. `Element.click(function() { [callback] })` -> Runs the inputted function if the element is clicked.
 3. `Element.html("<some>html here</some>")` -> Rewrites the innerHTML of the PhazorElement.
