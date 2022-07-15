@@ -42,3 +42,5 @@
  * Dont abuse
  * Dont delete working script
  * Dont minify
+ * Dont create new files
+ * Dont delete files
