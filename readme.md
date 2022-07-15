@@ -1,5 +1,5 @@
 <p align="center">
-  <br/> 
+  <br/>
   <img
     alt="logo"
     src="https://raw.githubusercontent.com/Phazor-js/Phazor.js/gh-pages/favicon.png"
