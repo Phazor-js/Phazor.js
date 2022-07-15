@@ -29,12 +29,12 @@
 <br />
 
 <p align="center">
-  <a href="#">Docs</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js" >Contribute</a> &nbsp;|&nbsp;
+  <a href="#docs">Docs</a> &nbsp;|&nbsp;
+  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Contribute</a> &nbsp;|&nbsp;
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Security</a> &nbsp;|&nbsp;
 </p>
 
-## What is phazor.JS?
+<h2 id="docs">What is phazor.JS?</h2>
 Phazor.JS is framework by boomhost.ml that provides functions similiar to jquery.<br>
 It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
 <br>
