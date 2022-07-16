@@ -6,10 +6,7 @@ addAssignees: false
 
 # A list of reviewers to be added to pull requests (GitHub user name)
 reviewers:
-  - pythoniaweb
-  - phazor-js/owner
-  - phazor-js/staff
-  - phazor-js/admin
+  - phazor-js/reviewer
 
 # A number of reviewers added to the pull request
 # Set 0 to add all the reviewers (default: 0)
