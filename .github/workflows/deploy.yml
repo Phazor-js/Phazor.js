@@ -3,8 +3,11 @@ on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
@@ -13,7 +16,26 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Deploy 🚀
+      - name: Backup Code 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: './docs/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@main
