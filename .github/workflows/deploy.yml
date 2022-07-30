@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: 🌐 Phazor Pages
 on:
   push:
     branches:
@@ -9,14 +9,14 @@ permissions:
   pages: write
   id-token: write
 jobs:
-  build-and-deploy:
+  backup:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: 🛎️ Checkout
         uses: actions/checkout@v3
 
-      - name: Backup Code 🚀
+      - name: 💾 Backup Phazor
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs
@@ -27,15 +27,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 🛎️ Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
+      - name: ⚙️ Configure Code
         uses: actions/configure-pages@v1
-      - name: Upload artifact
+      - name: 💾 Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
           path: './docs/'
-      - name: Deploy to GitHub Pages
+      - name: 🌐 Deploy to Phazor.js.org
         id: deployment
         uses: actions/deploy-pages@main
