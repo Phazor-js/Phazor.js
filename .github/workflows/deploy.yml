@@ -15,13 +15,13 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
       - name: Backup Phazor 💾
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs
-
+      
   deploy:
+    needs: backup
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
