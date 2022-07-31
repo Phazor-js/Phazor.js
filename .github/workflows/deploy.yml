@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   analyze:
+    name: CodeQL Code Scanner 🛸
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -31,6 +32,7 @@ jobs:
       uses: github/codeql-action/analyze@v2
 
   backup:
+    name: Backup Phazor 💾
     needs: analyze
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
@@ -43,6 +45,7 @@ jobs:
           folder: docs
       
   deploy:
+    name: Deploy to Gh-Pages 🌐
     needs: backup
     environment:
       name: github-pages
