@@ -1,4 +1,4 @@
-name: 🌐 Phazor Pages
+name: 🌐 Phazor Gh-Pages
 on:
   push:
     branches:
@@ -13,10 +13,10 @@ jobs:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
-      - name: 🛎️ Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: 💾 Backup Phazor
+      - name: Backup Phazor 💾
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: docs
@@ -27,15 +27,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: 🛎️ Checkout
+      - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: ⚙️ Configure Code
+      - name: Configure Pages ⚙️
         uses: actions/configure-pages@v1
-      - name: 💾 Upload artifact
+      - name: Upload artifact 💾
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
           path: './docs/'
-      - name: 🌐 Deploy to Phazor.js.org
+      - name: Deploy to Gh-Pages 🌐
         id: deployment
         uses: actions/deploy-pages@main
