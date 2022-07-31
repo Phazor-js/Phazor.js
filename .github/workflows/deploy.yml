@@ -8,8 +8,35 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
+  security-events: write
+
 jobs:
+  analyze:
+    name: Code Analyze 🌐
+    runs-on: ubuntu-latest
+    
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ['javascript']
+        
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+
+    - name: Initialize CodeQL ⚙️
+      uses: github/codeql-action/init@v2
+      with:
+        languages: ${{ matrix.language }}
+        
+     - name: Autobuild 🛸
+      uses: github/codeql-action/autobuild@v2
+
+    - name: Perform CodeQL Analysis 🤖
+      uses: github/codeql-action/analyze@v2
   backup:
+    needs: analyze
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
