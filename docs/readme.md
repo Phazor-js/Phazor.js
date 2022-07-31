@@ -6,7 +6,7 @@
     height="150px" 
   />
 </p>
-<h1 align="center"><b>🇺🇦 Phazor.js</b></h1>
+<h1 align="center"><b>Phazor.js</b></h1>
 <p align="center">
   <a
     href="https://github.com/Phazor-js/Phazor.js/blob/main/LICENSE"
