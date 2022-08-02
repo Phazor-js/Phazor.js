@@ -13,10 +13,10 @@
 "use strict";
 
 
-const pjsversion = 'v1'
-const pjsmaster = 'Hello im Phazor.JS Master. If u need more help try go to:  http://api.boomhost.ml'
-const pjsmasterversion = 'v1'
-const pjsinfo = 'Made by: PlurrYT. Github: https://github.com/Phazor-js/Phazor.js/tree/main/'
+const pjsversion = 'Stable v1'
+const pjsmaster = 'Hello im Phazor.JS Master. If u need more help try go to:  https://phazor.js.org'
+const pjsmasterversion = 'Stable v1'
+const pjsinfo = 'Made by: PlurrYT & Phazor.js Contributors. Github: https://github.com/Phazor-js/Phazor.js/tree/main/'
 
 var _0x44a1=["log","color: black; font-size: 18px;","color: red; font-size: 24px;","%cBy doing anthing in this console, you risk giving attackers access to your account or computer","%cHOLD UP!","color: blue; font-size: 75px; text-shadow: 2px 2px #000;"];!function(o,e){!function(e){for(;--e;)o.push(o.shift())}(++e)}(_0x44a1,343);var _0x30b5=function(o,e){return _0x44a1[o-=0]};setTimeout(function(){console.log(_0x30b5("0x3"),_0x30b5("0x4")),console.log("%cIf someone tells you to write, copy/paste or read anything from this console, there is a 101% chance you're being scammed!",_0x30b5("0x0")),console[_0x30b5("0x5")](_0x30b5("0x2"),_0x30b5("0x0")),console[_0x30b5("0x5")]("%cNo, this console CANNOT be used to gain access to someone elses account, only yours. ",_0x30b5("0x0")),console[_0x30b5("0x5")]("%cStay safe and close this side-bar.",_0x30b5("0x1"))},1500); /* Phazor.JS Security Info */
 
