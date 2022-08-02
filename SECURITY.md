@@ -40,8 +40,10 @@ Currently being supported with security updates.
 
 | 💾 Version | ⚔️ Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < Alpha   | :x:                |
+| Public 1.0.x   | :white_check_mark: |
+| Private 1.0.x   | :x: |
+| Testing 1.0.x   | :x: |
+| < Alpha   | :x: |
 
 🚨 Security Warning: Dont use staff.js or public.js in web. Use stable.js
 
