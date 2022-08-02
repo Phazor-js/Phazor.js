@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   analyze:
-    name: CodeQL Code Scanner 🛸
+    name: CodeQL Scanner 🛸
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
