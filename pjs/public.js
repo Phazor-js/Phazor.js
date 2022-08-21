@@ -13,9 +13,9 @@
 "use strict";
 
 
-const pjsversion = 'Public v1'
+const pjsversion = 'Testing v1'
 const pjsmaster = 'Hello im Phazor.JS Master. If u need more help try go to:  https://phazor.js.org'
-const pjsmasterversion = 'Public v1'
+const pjsmasterversion = 'Testing v1'
 const pjsinfo = 'Made by: PlurrYT & Phazor.js Contributors. Phazor.js use cookie. More info on Github: https://github.com/Phazor-js/Phazor.js/tree/main/'
 
 
