@@ -34,9 +34,9 @@
 </p>
 
 ## ⚔️ Security Policy
-<h3>🗃️ Supported Versions</h3>
+<h3>🗃️ Supported Version</h3>
 
-Currently being supported with security updates.
+Currently being supported with data security, code security, console security (warning about hackers).
 
 | 💾 Version | ⚔️ Supported          |
 | ------- | ------------------ |
@@ -45,7 +45,17 @@ Currently being supported with security updates.
 | Testing 1.0.x   | :x: |
 | < Alpha   | :x: |
 
-🚨 Security Warning: Dont use staff.js or public.js in web. Use stable.js
+🚨 Security Warning: We recommend use **ONLY** public.js nothing else!
+
+## 💾 Phazor Cookies 
+
+Phazor.js use Cookies files for:
+ • Collect data about phazor security updates
+  > This may contain Phazor version security version master version
+ • All cookie is avalibw only 1 day
+ • All who use Phazor.js **DONT NEED** to make own security police for Phazor.js Cookies
+Phazor.js by BoomHost Inc 
+
 
 ## 🗡️ Reporting a Vulnerability
 
