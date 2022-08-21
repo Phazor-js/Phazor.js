@@ -51,7 +51,7 @@ Currently being supported with data security, code security, console security (w
 
 Phazor.js use Cookies files for:
  • Collect data about phazor security updates
-  > This may contain Phazor version security version master version
+  • This may contain Phazor version security version master version
  • All cookie is avalibw only 1 day
  • All who use Phazor.js **DONT NEED** to make own security police for Phazor.js Cookies
 Phazor.js by BoomHost Inc 
