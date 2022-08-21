@@ -38,14 +38,14 @@
 
 Currently being supported with data security, code security, console security (warning about hackers).
 
-| 💾 Version | ⚔️ Supported          |
+| 💾 Version / File | ⚔️ Supported          |
 | ------- | ------------------ |
-| Public 1.0.x   | :white_check_mark: |
-| Private 1.0.x   | :x: |
-| Testing 1.0.x   | :x: |
-| < Alpha   | :x: |
+| Public 1.0.x / stable.js   | :white_check_mark: |
+| Private 1.0.x / public.js   | :x: |
+| Testing 1.0.x / staff.jd  | :x: |
+| < Alpha / **deleted**   | :x: |
 
-🚨 Security Warning: We recommend use **ONLY** public.js nothing else!
+🚨 Security Warning: We recommend use **ONLY** stable.js nothing else!
 
 ## 💾 Phazor Cookies 
 
@@ -54,6 +54,7 @@ Phazor.js use Cookies files for:
 <br>  • This may contain Phazor version security version master version
 <br> • All cookie is avalibw only 1 day
 <br> • All who use Phazor.js **DONT NEED** to make own security police for Phazor.js Cookies
+<br> This Cookie policy / info is only avalibe to stable.js
 <br> Phazor.js by BoomHost Inc 
 
 
