@@ -55,7 +55,7 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
       - name: Configure Pages ⚙️
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v2
       - name: Upload artifact 💾
         uses: actions/upload-pages-artifact@v1
         with:
