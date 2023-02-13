@@ -2,11 +2,13 @@
 addReviewers: true
 
 # Set to true to add assignees to pull requests
-addAssignees: false
+addAssignees: true
 
 # A list of reviewers to be added to pull requests (GitHub user name)
 reviewers:
   - phazor-js/reviewer
+  - phazor-js/staff
+  - phazor-js/admin
 
 # A number of reviewers added to the pull request
 # Set 0 to add all the reviewers (default: 0)
