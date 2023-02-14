@@ -75,7 +75,7 @@ document.head.appendChild(importpjs); // auto paste to header
  4. `pjs.alert("text")` -> Shows a native alert.
  5. `pjs.prompt("text")` -> Prompts the user for an input, Then returns the user input.
  6. `pjs.get("https://url/", function() { [callback] })` -> Performs an HTTP GET request and returns the value using a callback.
- 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POSZT request with the given data and returns the value using a callback.
+ 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POST request with the given data and returns the value using a callback.
  8. `pjs.refresh()` -> Reloads the page.
  9. `pjs.open("https://url/")` -> Opens a new window with the given URL.
  10. `pjs.replace("https://url/")` -> Replaces the current window with the given URL.
