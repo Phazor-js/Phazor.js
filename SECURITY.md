@@ -42,7 +42,7 @@ Currently being supported with data security, code security, console security (w
 | ------- | ------------------ |
 | Public 1.0.x / stable.js   | :white_check_mark: |
 | Private 1.0.x / public.js   | :x: |
-| Testing 1.0.x / staff.jd  | :x: |
+| Testing 1.0.x / staff.js  | :x: |
 | < Alpha / **deleted**   | :x: |
 
 🚨 Security Warning: We recommend use **ONLY** stable.js nothing else!
