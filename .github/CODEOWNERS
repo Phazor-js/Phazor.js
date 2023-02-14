@@ -3,6 +3,7 @@
 /docs/pjs/staff.js @phazor-js/staff
 /docs/pjs/public.js @phazor-js/staff
 /docs/*.md @phazor-js/staff
+/docs/lang/ua/* @phazor-js/staff
 /docs/*.md @phazor-js/admin
 /docs/pjs/staff.js @phazor-js/admin
 /docs/pjs/public.js @phazor-js/admin
