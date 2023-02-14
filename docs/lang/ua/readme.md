@@ -54,12 +54,12 @@ Load Phazor.js Installer without any downloads:<br>
 Or recommended
 ```HTML
 <script>
-var importpjs = document.createElement('script'); // creating script tag
-importpjs.src = "https://phazor.js.org/pjs/stable.js"; // version url
+var importpjs = document.createElement('script'); // робими скріпт тег
+importpjs.src = "https://phazor.js.org/pjs/stable.js"; // урл версії
 importpjs.onload = function () {
-   // You script will be here
-}; // When script fully loaded then work
-document.head.appendChild(importpjs); // auto paste to header
+   // Тут буде ваш код
+}; // Коли код повністю загрузиться
+document.head.appendChild(importpjs); // авто вставка в header
 </script>
 ```
 
@@ -69,13 +69,13 @@ document.head.appendChild(importpjs); // auto paste to header
 
 ## The ultimate how-to-use tutorial
 ### Global properties
- 1. `pjs("selector")` -> Returns a parsed PhazorElement.
- 2. `pjs.parseElement(dom_element)` -> Returns a single parsed PhazorElement.
+ 1. `pjs("selector")` -> Returns a parsed Phazor Елемент.
+ 2. `pjs.parseElement(dom_element)` -> Returns a single parsed Phazor Елемент.
  3. `pjs.parse(dom_elements)` -> Returns an array of parsed PhazorElements, Or returns a single one if there is only one.
  4. `pjs.alert("text")` -> Shows a native alert.
  5. `pjs.prompt("text")` -> Prompts the user for an input, Then returns the user input.
  6. `pjs.get("https://url/", function() { [callback] })` -> Performs an HTTP GET request and returns the value using a callback.
- 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POSZT request with the given data and returns the value using a callback.
+ 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POST request with the given data and returns the value using a callback.
  8. `pjs.refresh()` -> Reloads the page.
  9. `pjs.open("https://url/")` -> Opens a new window with the given URL.
  10. `pjs.replace("https://url/")` -> Replaces the current window with the given URL.
