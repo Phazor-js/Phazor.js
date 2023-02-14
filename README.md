@@ -33,6 +33,12 @@
   <a href="/docs/pjs/public.js" >Contribute</a> &nbsp;|&nbsp;
   <a href="/SECURITY.md">Security</a>
 </p>
-# ⚙️ Contributors
 
-![GitHub Contributors Image 1](https://contrib.rocks/image?repo=Phazor-js/Phazor.js)
+<p align="center">
+  <br />
+  <img
+    alt="logo"
+    src="[/docs/favicon.png](https://contrib.rocks/image?repo=Phazor-js/Phazor.js)"
+    height="150px"
+  />
+</p>
