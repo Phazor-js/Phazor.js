@@ -38,7 +38,7 @@
   <br />
   <img
     alt="logo"
-    src="[/docs/favicon.png](https://contrib.rocks/image?repo=Phazor-js/Phazor.js)"
+    src="https://contrib.rocks/image?repo=Phazor-js/Phazor.js"
     height="150px"
   />
 </p>
