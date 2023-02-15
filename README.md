@@ -39,5 +39,4 @@
   <img
     alt="logo"
     src="https://contrib.rocks/image?repo=Phazor-js/Phazor.js"
-
 </p>
