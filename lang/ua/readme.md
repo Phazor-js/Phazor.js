@@ -97,10 +97,10 @@ document.head.appendChild(importpjs); // авто вставка в header
  27. `pjs.cetime("text")` -> Завершити таймер консолі.
 
 ### PhazorElement properties
-TIP: `pjs("selector")` -> Returns a parsed PhazorElement.
-1. `Element.dom` -> Returns the DOM element of the PhazorElement.
-2. `Element.click(function() { [callback] })` -> Runs the inputted function if the element is clicked.
-3. `Element.html("<some>html here</some>")` -> Rewrites the innerHTML of the PhazorElement.
+TIP: `pjs("selector")` -> Повертає проаналізований PhazorElement.
+1. `Element.dom` -> повертає  DOM елемент з PhazorElement.
+2. `Element.click(function() { [callback] })` -> Запускає введену функцію, якщо клацнути елемент.
+3. `Element.html("<some>html here</some>")` -> Переписує innerHTML з PhazorElement.
 4. `Element.setcss("some: css;")` -> Rewrites the style attribute of the PhazorElement.
 5. `Element.getcss("some")` -> Returns the CSS value of the given attribute name.
 6. `Element.css("some", "css")` -> Modifies the style attribute of the PhazorElement, Keeping the old attributes.
