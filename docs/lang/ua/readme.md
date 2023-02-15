@@ -43,7 +43,7 @@ Phazor.JS це фрейм ворк від PlurrYT яктий надає зхож
 Ти можеш найти документацію знизу.
 
 ## Це платно?
-Ні. Phazor.JS це безкоштовний для використання framework без оплатно, кожному потрібен доступ до будь-яої функції. Хауер, донати або щось інше.<br>
+Ні. Phazor.JS це безкоштовний для використання framework без оплатно, кожному потрібен доступ до будь-яої функції. Ви можете підтримати проект на нашій сторінці в github.<br>
 
 ## як я можу цим користуватися?
 **Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.**
