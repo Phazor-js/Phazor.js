@@ -101,14 +101,14 @@ TIP: `pjs("selector")` -> Повертає проаналізований Phazor
 1. `Element.dom` -> повертає  DOM елемент з PhazorElement.
 2. `Element.click(function() { [callback] })` -> Запускає введену функцію, якщо клацнути елемент.
 3. `Element.html("<some>html here</some>")` -> Переписує innerHTML з PhazorElement.
-4. `Element.setcss("some: css;")` -> Rewrites the style attribute of the PhazorElement.
-5. `Element.getcss("some")` -> Returns the CSS value of the given attribute name.
-6. `Element.css("some", "css")` -> Modifies the style attribute of the PhazorElement, Keeping the old attributes.
-7. `Element.setX(number)` -> Sets the value of the X axis of the PhazorElement based on viewport width.
-8. `Element.setY(number)` -> Sets the value of the Y axis of the PhazorElement based on viewport width.
-9. `Element.moveX(number)` -> Modifies the value of the X axis of the PhazorElement based on viewport width.
-10. `Element.moveY(number)` -> Modifies the value of the Y axis of the PhazorElement based on viewport width.
-11. `Element.fixW(number)` -> Sets the width of the PhazorElement based on viewport width.
+4. `Element.setcss("some: css;")` -> переписує стиль атрибут з PhazorElement.
+5. `Element.getcss("some")` -> повертає  CSS значення  з даного ім'я атрибута.
+6. `Element.css("some", "css")` -> модифікації стиля стиля з PhazorElement, стежит за старимм атоибутами.
+7. `Element.setX(number)` -> виставляє значення з X вісью з PhazorElement базовано на  порту ширини.
+8. `Element.setY(number)` -> виставляє значення з Y вісью з PhazorElement базовано на  порту ширини.
+9. `Element.moveX(number)` -> змінює значення з X віссю з PhazorElement базовано на  порту ширини.
+10. `Element.moveY(number)` -> змінює значення Y віссю з PhazorElement базовано на  порту ширини.
+11. `Element.fixW(number)` -> виставляє ширину з PhazorElement базовано на  порту ширини.
 12. `Element.fixH(number)` -> Sets the height of the PhazorElement based on viewport width.
 13. `Element.fixW(number)` -> Modifies the width of the PhazorElement based on viewport width.
 14. `Element.fixH(number)` -> Modifies the height of the PhazorElement based on viewport width.
