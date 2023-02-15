@@ -55,8 +55,14 @@ Phazor.js use Cookies files for:
 <br> • All cookie is avalibw only 1 day
 <br> • All who use Phazor.js **DONT NEED** to make own security police for Phazor.js Cookies
 <br> This Cookie policy / info is only avalibe to stable.js
-<br> Phazor.js by BoomHost Inc 
+<br> Phazor.js by PlurrYT
 
+## 🚨 Other Info 
+
+Every non securied versions is un save to use
+reasons:
+<br> • Un stable loader
+<br> • This my contain critical errors
 
 ## 🗡️ Reporting a Vulnerability
 
