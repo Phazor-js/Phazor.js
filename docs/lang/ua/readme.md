@@ -40,7 +40,7 @@ Phazor.JS це фрейм ворк від PlurrYT яктий надає зхож
 <br>
 
 ## Як це працює?
-Ти можеш найти документацію зверху.
+Ти можеш найти документацію знизу.
 
 ## Це платно?
 Ні. Phazor.JS це безкоштовний для використання framework без оплатно, кожному потрібен доступ до будь-яої функції. Хауер, донати або щось інше.<br>
@@ -117,7 +117,7 @@ TIP: `pjs("selector")` -> Returns a parsed PhazorElement.
 17. `Element.fix(w, h)` -> Sets the width and height of the PhazorElement based on viewport width.
 18. `Element.fixS(w, h)` -> Modifies the width and height of the PhazorElement based on viewport width.
 19. `Element.add(PhazorElement)` -> Adds a PhazorElement to the current PhazorElement.
-20. `Element.src("url")` -> Adds or changes src.
-21. `Element.href("url")` -> Adds or changes href.
+20. `Element.src("url")` -> додає або вибирає src.
+21. `Element.href("url")` -> додає або вибирає href.
 
 # Enjoy!
