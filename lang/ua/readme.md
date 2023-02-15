@@ -67,24 +67,24 @@ document.head.appendChild(importpjs); // авто вставка в header
 
 <br>
 
-## The ultimate how-to-use tutorial
-### Global properties
- 1. `pjs("selector")` -> Returns a parsed Phazor Елемент.
- 2. `pjs.parseElement(dom_element)` -> Returns a single parsed Phazor Елемент.
- 3. `pjs.parse(dom_elements)` -> Returns an array of parsed PhazorElements, Or returns a single one if there is only one.
+## Простий туторіал як використовувати
+### Глобальні Значення
+ 1. `pjs("selector")` -> Виводить parsed Phazor Елемент.
+ 2. `pjs.parseElement(dom_element)` -> Виводить одиночний parsed Phazor Елемент.
+ 3. `pjs.parse(dom_elements)` -> Повертає масив проаналізованих PhazorElements або повертає один, якщо є лише один.
  4. `pjs.alert("text")` -> Shows a native alert.
- 5. `pjs.prompt("text")` -> Prompts the user for an input, Then returns the user input.
- 6. `pjs.get("https://url/", function() { [callback] })` -> Performs an HTTP GET request and returns the value using a callback.
- 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POST request with the given data and returns the value using a callback.
- 8. `pjs.refresh()` -> Reloads the page.
- 9. `pjs.open("https://url/")` -> Opens a new window with the given URL.
- 10. `pjs.replace("https://url/")` -> Replaces the current window with the given URL.
- 11. `pjs.random(min, max)` -> Returns a random number between two given numbers.
- 13. `pjs.confirm("text")` -> Returns a random number between two given numbers.
- 14. `pjs.setcookie("cookieone = value", "cookie expires in days (1)", "cookie path (/)")` -> Set cookie.
- 15. `pjs.getcookie("cookie")` -> Returns a cookie value.
- 16. `pjs.allcookies()` -> Returns all cookies (CODED). (CookieName=coded value)
- 17. `pjs.version()` -> Returns Phazor.JS Version. (v1)
+ 5. `pjs.prompt("text")` -> Запитує користувача на введення, а потім повертає введене користувачем.
+ 6. `pjs.get("https://url/", function() { [callback] })` -> Виконує запит HTTP GET і повертає значення за допомогою зворотного виклику.
+ 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Виконує запит HTTP POST із заданими даними та повертає значення за допомогою зворотного виклику.
+ 8. `pjs.refresh()` -> Перезавантажує сторінку.
+ 9. `pjs.open("https://url/")` -> Відкриває нове вікно з указаною URL-адресою.
+ 10. `pjs.replace("https://url/")` -> Замінює поточне вікно вказаною URL-адресою.
+ 11. `pjs.random(min, max)` -> Повертає випадкове число між двома заданими числами.
+ 13. `pjs.confirm("text")` -> Повертає випадкове число між двома заданими числами.
+ 14. `pjs.setcookie("cookieone = значення", "cookie закінчується через днів (1)", "cookie патч (/)")` -> встановити cookie.
+ 15. `pjs.getcookie("cookie")` -> Повертає значення cookie.
+ 16. `pjs.allcookies()` -> Повертає всі файли cookie (CODED). (CookieName=coded value)
+ 17. `pjs.version()` -> Повернення Phazor.JS Версію. (v1)
  18. `pjs.info()` -> Returns info about phazor. (Owner and phazor.js website.)
  19. `pjs.noscript("text")` -> Create noscript element with text (if dont support scripts in browser (not js))
  20. `pjs.favicon("url")` -> Change favicon to entered URL.
