@@ -112,11 +112,11 @@ TIP: `pjs("selector")` -> Повертає проаналізований Phazor
 12. `Element.fixH(number)` -> виставляє висоту з PhazorElement базовано на порту ширини.
 13. `Element.fixW(number)` -> Змінює ширину з PhazorElement базовано на  порту ширини.
 14. `Element.fixH(number)` -> Змінює довжин  з PhazorElement базовано на  порту ширини.
-15. `Element.set(x, y)` -> Виставляє значення з X та Y axis of the PhazorElement based on viewport width.
-16. `Element.move(x, y)` -> Modifies the value of the X and Y axis of the PhazorElement based on viewport width.
-17. `Element.fix(w, h)` -> Sets the width and height of the PhazorElement based on viewport width.
-18. `Element.fixS(w, h)` -> Modifies the width and height of the PhazorElement based on viewport width.
-19. `Element.add(PhazorElement)` -> Adds a PhazorElement to the current PhazorElement.
+15. `Element.set(x, y)` -> Виставляє значення з X та Y axis з PhazorElement базовано на  порту ширини.
+16. `Element.move(x, y)` -> змінює значення з X та Y вісь з PhazorElement базовано на  порту ширини.
+17. `Element.fix(w, h)` -> Виставляє висоту та довжину  з PhazorElement базовано на  порту ширини.
+18. `Element.fixS(w, h)` -> змінює ширину та висоту з PhazorElement базовано на  порту ширини.
+19. `Element.add(PhazorElement)` -> додає PhazorElement до поточного PhazorElement.
 20. `Element.src("url")` -> додає або вибирає src.
 21. `Element.href("url")` -> додає або вибирає href.
 
