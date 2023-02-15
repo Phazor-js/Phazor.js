@@ -96,23 +96,23 @@ document.head.appendChild(importpjs); // авто вставка в header
  26. `pjs.cstime("text")` -> Запустити таймер консолі.
  27. `pjs.cetime("text")` -> Завершити таймер консолі.
 
-### PhazorElement properties
+### PhazorElement значення
 TIP: `pjs("selector")` -> Повертає проаналізований PhazorElement.
 1. `Element.dom` -> повертає  DOM елемент з PhazorElement.
 2. `Element.click(function() { [callback] })` -> Запускає введену функцію, якщо клацнути елемент.
 3. `Element.html("<some>html here</some>")` -> Переписує innerHTML з PhazorElement.
 4. `Element.setcss("some: css;")` -> переписує стиль атрибут з PhazorElement.
 5. `Element.getcss("some")` -> повертає  CSS значення  з даного ім'я атрибута.
-6. `Element.css("some", "css")` -> модифікації стиля стиля з PhazorElement, стежит за старимм атоибутами.
+6. `Element.css("some", "css")` -> модифікації стиля  з PhazorElement, стежит за старимм атоибутами.
 7. `Element.setX(number)` -> виставляє значення з X вісью з PhazorElement базовано на  порту ширини.
 8. `Element.setY(number)` -> виставляє значення з Y вісью з PhazorElement базовано на  порту ширини.
 9. `Element.moveX(number)` -> змінює значення з X віссю з PhazorElement базовано на  порту ширини.
 10. `Element.moveY(number)` -> змінює значення Y віссю з PhazorElement базовано на  порту ширини.
 11. `Element.fixW(number)` -> виставляє ширину з PhazorElement базовано на  порту ширини.
-12. `Element.fixH(number)` -> Sets the height of the PhazorElement based on viewport width.
-13. `Element.fixW(number)` -> Modifies the width of the PhazorElement based on viewport width.
-14. `Element.fixH(number)` -> Modifies the height of the PhazorElement based on viewport width.
-15. `Element.set(x, y)` -> Sets the value of the X and Y axis of the PhazorElement based on viewport width.
+12. `Element.fixH(number)` -> виставляє висоту з PhazorElement базовано на порту ширини.
+13. `Element.fixW(number)` -> Змінює ширину з PhazorElement базовано на  порту ширини.
+14. `Element.fixH(number)` -> Змінює довжин  з PhazorElement базовано на  порту ширини.
+15. `Element.set(x, y)` -> Виставляє значення з X та Y axis of the PhazorElement based on viewport width.
 16. `Element.move(x, y)` -> Modifies the value of the X and Y axis of the PhazorElement based on viewport width.
 17. `Element.fix(w, h)` -> Sets the width and height of the PhazorElement based on viewport width.
 18. `Element.fixS(w, h)` -> Modifies the width and height of the PhazorElement based on viewport width.
