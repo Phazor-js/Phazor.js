@@ -36,16 +36,16 @@
 
 <h2 id="docs">Що таке phazor.JS?</h2>
 Phazor.JS це фрейм ворк від PlurrYT яктий надає зхожі функцій з jquery.<br>
-It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
+Це  не базовано на jquery, весь код був написаний PlurrYT (pythoniaweb).<br>
 <br>
 
-## How does it work?
-You can find the documentation in the buttom.
+## Як це працює?
+Ти можеш найти документацію зверху.
 
-## Is it paid?
-No. Phazor.JS is free-to-use framework with no payment ever needed to access any feature. However, donations are optional.<br>
+## Це платно?
+Ні. Phazor.JS це безкоштовний для використання framework без оплатно, кожному потрібен доступ до будь-яої функції. Хауер, донати або щось інше.<br>
 
-## How can i use it?
+## як я можу цим користуватися?
 **Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.**
 Load Phazor.js Installer without any downloads:<br>
 ```HTML
