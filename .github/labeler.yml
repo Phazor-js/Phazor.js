@@ -1,0 +1,17 @@
+Translation:
+  - docs/lang/*
+
+documentation:
+  - ./*.md
+  - ./**/*.md
+  
+important:
+  - ./*.html
+  - ./**/*.html
+  - ./language.js
+
+code:
+  - ./*.js
+  - ./**/*.js
+  - ./*.html
+  - ./**/*.html
