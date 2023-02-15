@@ -85,16 +85,16 @@ document.head.appendChild(importpjs); // авто вставка в header
  15. `pjs.getcookie("cookie")` -> Повертає значення cookie.
  16. `pjs.allcookies()` -> Повертає всі файли cookie (CODED). (CookieName=coded value)
  17. `pjs.version()` -> Повернення Phazor.JS Версію. (v1)
- 18. `pjs.info()` -> Returns info about phazor. (Owner and phazor.js website.)
- 19. `pjs.noscript("text")` -> Create noscript element with text (if dont support scripts in browser (not js))
- 20. `pjs.favicon("url")` -> Change favicon to entered URL.
- 21. `pjs.favicontext("text")` -> Change favicon to text (u can enter emoji!).
- 22. `pjs.clog("text")` -> Like console log but just easy version.
- 23. `pjs.cwarn("text")` -> Like console warn but just easy version.
- 24. `pjs.cerror("text")` -> Like console error but just easy version.
- 25. `pjs.terror("text")` -> Like throw new Error but just easy version.
- 26. `pjs.cstime("text")` -> Start console timer.
- 27. `pjs.cetime("text")` -> End console timer.
+ 18. `pjs.info()` -> Повертає інформацію про phazor. (Власник і сайт phazor.js.)
+ 19. `pjs.noscript("text")` -> Створіть елемент noscript з текстом (Хуйня якась просто не використовуйте від Plurrarrab)
+ 20. `pjs.favicon("url")` -> Змінити фавікон на введену URL-адресу.
+ 21. `pjs.favicontext("text")` -> Змінити значок фавіка на текст (можна ввести емодзі!).
+ 22. `pjs.clog("text")` -> Як журнал консолі, але просто проста версія.
+ 23. `pjs.cwarn("text")` -> Як консольне попередження, але просто проста версія.
+ 24. `pjs.cerror("text")` -> Як консольна помилка, але просто проста версія.
+ 25. `pjs.terror("text")` -> Як створити нову помилку, але просто легку версію.
+ 26. `pjs.cstime("text")` -> Запустити таймер консолі.
+ 27. `pjs.cetime("text")` -> Завершити таймер консолі.
 
 ### PhazorElement properties
 TIP: `pjs("selector")` -> Returns a parsed PhazorElement.
