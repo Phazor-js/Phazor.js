@@ -33,7 +33,7 @@
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Сприяти</a> &nbsp;|&nbsp;
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Безпека</a> &nbsp;|&nbsp;
 </p>
-<a>Увага! Ця сторінка переведена на 99%</a>
+<a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/lang/ua/readme.md">Увага! Ця сторінка переведена на 99% <small>[Допомогти]</small></a>
 <h2 id="docs">Що таке phazor.JS?</h2>
 Phazor.JS це фрейм ворк від PlurrYT яктий надає зхожі функцій з jquery.<br>
 Це  не базовано на jquery, весь код був написаний PlurrYT (pythoniaweb).<br>
@@ -46,12 +46,12 @@ Phazor.JS це фрейм ворк від PlurrYT яктий надає зхож
 Ні. Phazor.JS це безкоштовний для використання framework без оплатно, кожному потрібен доступ до будь-яої функції. Ви можете підтримати проект на нашій сторінці в github.<br>
 
 ## як я можу цим користуватися?
-**Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.**
-Load Phazor.js Installer without any downloads:<br>
+**Увага! Цей фрейм ворк різний на телефонах та комп'ютерах! Будьте обережні при розробці ігор та вебсайтів:<br>
+Звичайний скачувач
 ```HTML
 <script id="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
 ```
-Or recommended
+Рекомендований скачувач
 ```HTML
 <script>
 var importpjs = document.createElement('script'); // робими скріпт тег
