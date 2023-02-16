@@ -33,7 +33,7 @@
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Сприяти</a> &nbsp;|&nbsp;
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Безпека</a> &nbsp;|&nbsp;
 </p>
-
+<a>Увага! Ця сторінка переведена на 99%</a>
 <h2 id="docs">Що таке phazor.JS?</h2>
 Phazor.JS це фрейм ворк від PlurrYT яктий надає зхожі функцій з jquery.<br>
 Це  не базовано на jquery, весь код був написаний PlurrYT (pythoniaweb).<br>
