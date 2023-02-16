@@ -24,7 +24,7 @@ var importpjs = document.createElement('script');
 importpjs.src = "https://phazor.js.org/pjs/stable.js";
 importpjs.onload = function () {
     let converter = new showdown.Converter();
-    pjs.get('/readme.md', function(text) {
+    pjs.get('https://phazor.js.org/lang/it/readme.md', function(text) {
     let html = converter.makeHtml(text);
     pjs("#readme").html(html);
     });
