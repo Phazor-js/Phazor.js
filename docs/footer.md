@@ -8,24 +8,4 @@
 if (location.protocol !== 'https:') {
     location.replace(`https:${location.href.substring(location.protocol.length)}`);
 }
-
-   var t_images = [
-                    'Phazor.JS | Free for Ever!',
-                    'Phazor.JS | Best of Best!',
-                    'Phazor.JS | Use it now!',
-                ],
-    t_counter = 0; 
-
-setInterval(function() {
-    function changePageTitle() {
-            newPageTitle = t_images[t_counter];
-            document.querySelector('title').textContent
-                    = newPageTitle;
-        }
-    if(t_counter == t_images.length -1)
-        t_counter = 0;
-    }
-    t_counter = t_counter + 1;
-}, 10000);
-    
 </script>
