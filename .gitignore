@@ -2,6 +2,12 @@
 *.html
 *.css
 *.md
+./*.html
+./**/*.html
+./**/*.md
+./*.md
+./**/*.js
+./*.js
 /docs/*.html
 /docs/*.md
 /docs/*css
