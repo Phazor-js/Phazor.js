@@ -3,6 +3,7 @@
   <img
     alt="logo"
     src="/docs/favicon.png"
+    height = '150px'
   />
 </p>
 <h1 align="center"><b>Phazor.js</b></h1>
