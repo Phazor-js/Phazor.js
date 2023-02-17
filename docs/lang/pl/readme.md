@@ -29,37 +29,37 @@
 <br />
 
 <p align="center">
-  <a href="#docs">Docs</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Contribute</a> &nbsp;|&nbsp;
-  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Security</a> &nbsp;|&nbsp;
+  <a href="#docs">Dokumenty</a> &nbsp;|&nbsp;
+  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Brać w czymś udział</a> &nbsp;|&nbsp;
+  <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Bezpieczeństwo</a> &nbsp;|&nbsp;
 </p>
 
-<h2 id="docs">What is phazor.JS?</h2>
-Phazor.JS is framework by Plugin that provides functions similiar to jquery.<br>
-It is not based on jquery, all code is writtten by PlurrYT (pythoniaweb).<br>
+<h2 id="docs">Co to jest phazor.JS?</h2>
+Phazor.JS to framework firmy Plugin, który udostępnia funkcje podobne do jquery.<br>
+Nie jest oparty na jquery, cały kod jest napisany przez PlurrYT (pythoniaweb).<br>
 <br>
 
-## How does it work?
-You can find the documentation in the buttom.
+## Jak to działa?
+Dokumentację znajdziesz na dole.
 
-## Is it paid?
-No. Phazor.JS is free-to-use framework with no payment ever needed to access any feature. However, donations are optional.<br>
+## Czy to jest płatne?
+Nie. Phazor.JS jest darmowym frameworkiem, który nie wymaga żadnych opłat, aby uzyskać dostęp do jakiejkolwiek funkcji. Darowizny są jednak opcjonalne.<br>
 
-## How can i use it?
-**Warning: This framework behaves differently on mobile and PC. Please note this while making your apps/games as this may cause huge rendering problems.**
-Load Phazor.js Installer without any downloads:<br>
+## Jak mogę go użyć?
+**Ostrzeżenie: ten framework zachowuje się inaczej na urządzeniach mobilnych i komputerach. Pamiętaj o tym podczas tworzenia aplikacji/gier, ponieważ może to spowodować ogromne problemy z renderowaniem.**
+Załaduj instalator Phazor.js bez pobierania:
 ```HTML
 <script id="phazorJS" src="https://phazor.js.org/pjs/stable.js"></script>
 ```
-Or recommended
+Lub zalecane
 ```HTML
 <script>
-var importpjs = document.createElement('script'); // creating script tag
-importpjs.src = "https://phazor.js.org/pjs/stable.js"; // version url
+var importpjs = document.createElement('script'); // tworzenie znacznika skryptu
+importpjs.src = "https://phazor.js.org/pjs/stable.js"; // Adres URL wersji
 importpjs.onload = function () {
-   // You script will be here
-}; // When script fully loaded then work
-document.head.appendChild(importpjs); // auto paste to header
+   // Twój skrypt będzie tutaj
+}; // Gdy skrypt jest w pełni załadowany, działa
+document.head.appendChild(importpjs); // automatyczne wklejanie do nagłówka
 </script>
 ```
 
@@ -67,43 +67,43 @@ document.head.appendChild(importpjs); // auto paste to header
 
 <br>
 
-## The ultimate how-to-use tutorial
-### Global properties
- 1. `pjs("selector")` -> Returns a parsed PhazorElement.
- 2. `pjs.parseElement(dom_element)` -> Returns a single parsed PhazorElement.
- 3. `pjs.parse(dom_elements)` -> Returns an array of parsed PhazorElements, Or returns a single one if there is only one.
- 4. `pjs.alert("text")` -> Shows a native alert.
- 5. `pjs.prompt("text")` -> Prompts the user for an input, Then returns the user input.
- 6. `pjs.get("https://url/", function() { [callback] })` -> Performs an HTTP GET request and returns the value using a callback.
- 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Performs an HTTP POST request with the given data and returns the value using a callback.
- 8. `pjs.refresh()` -> Reloads the page.
- 9. `pjs.open("https://url/")` -> Opens a new window with the given URL.
- 10. `pjs.replace("https://url/")` -> Replaces the current window with the given URL.
- 11. `pjs.random(min, max)` -> Returns a random number between two given numbers.
- 13. `pjs.confirm("text")` -> Returns a random number between two given numbers.
+## Najlepszy samouczek dotyczący obsługi
+### Właściwości globalne
+ 1. `pjs("selector")` -> Zwraca przeanalizowany element PhazorElement.
+ 2. `pjs.parseElement(dom_element)` -> Zwraca pojedynczy przeanalizowany element PhazorElement.
+ 3. `pjs.parse(dom_elements)` -> Zwraca tablicę przeanalizowanych elementów PhazorElements lub zwraca pojedynczą, jeśli jest tylko jedna.
+ 4. `pjs.alert("text")` -> Pokazuje alert natywny.
+ 5. `pjs.prompt("text")` -> Monituje użytkownika o wprowadzenie danych, a następnie zwraca dane wprowadzone przez użytkownika.
+ 6. `pjs.get("https://url/", function() { [callback] })` -> Wykonuje żądanie HTTP GET i zwraca wartość za pomocą wywołania zwrotnego.
+ 7. `pjs.post("https://url/", {"post": "data"}, function() { [callback] })` -> Wykonuje żądanie HTTP POST z podanymi danymi i zwraca wartość za pomocą wywołania zwrotnego.
+ 8. `pjs.refresh()` -> Ponownie ładuje stronę.
+ 9. `pjs.open("https://url/")` -> Otwiera nowe okno z podanym adresem URL.
+ 10. `pjs.replace("https://url/")` -> Zastępuje bieżące okno podanym adresem URL.
+ 11. `pjs.random(min, max)` -> Zwraca losową liczbę między dwiema podanymi liczbami.
+ 13. `pjs.confirm("text")` -> Zwraca losową liczbę między dwiema podanymi liczbami.
  14. `pjs.setcookie("cookieone = value", "cookie expires in days (1)", "cookie path (/)")` -> Set cookie.
  15. `pjs.getcookie("cookie")` -> Returns a cookie value.
- 16. `pjs.allcookies()` -> Returns all cookies (CODED). (CookieName=coded value)
- 17. `pjs.version()` -> Returns Phazor.JS Version. (v1)
- 18. `pjs.info()` -> Returns info about phazor. (Owner and phazor.js website.)
- 19. `pjs.noscript("text")` -> Create noscript element with text (if dont support scripts in browser (not js))
- 20. `pjs.favicon("url")` -> Change favicon to entered URL.
- 21. `pjs.favicontext("text")` -> Change favicon to text (u can enter emoji!).
- 22. `pjs.clog("text")` -> Like console log but just easy version.
- 23. `pjs.cwarn("text")` -> Like console warn but just easy version.
- 24. `pjs.cerror("text")` -> Like console error but just easy version.
- 25. `pjs.terror("text")` -> Like throw new Error but just easy version.
+ 16. `pjs.allcookies()` -> Zwraca wszystkie pliki cookie (KODOWANE). (CookieName=zakodowana wartość)
+ 17. `pjs.version()` -> Zwraca wersję Phazor.JS. (v1)
+ 18. `pjs.info()` -> Zwraca informacje o phazor. (Właściciel i witryna phazor.js).
+ 19. `pjs.noscript("text")` -> Utwórz element noscript z tekstem (jeśli nie obsługuje skryptów w przeglądarce (nie js))
+ 20. `pjs.favicon("url")` -> Zmień favicon na podany adres URL.
+ 21. `pjs.favicontext("text")` -> Zmień favicon na tekst (możesz wpisać emoji!).
+ 22. `pjs.clog("text")` -> Jak dziennik konsoli, ale tylko łatwa wersja.
+ 23. `pjs.cwarn("text")` -> Jak ostrzeżenie konsoli, ale tylko łatwa wersja.
+ 24. `pjs.cerror("text")` -> Jak błąd konsoli, ale tylko łatwa wersja.
+ 25. `pjs.terror("text")` -> Jak wyrzuć nowy błąd, ale tylko łatwą wersję.
  26. `pjs.cstime("text")` -> Start console timer.
  27. `pjs.cetime("text")` -> End console timer.
 
-### PhazorElement properties
-TIP: `pjs("selector")` -> Returns a parsed PhazorElement.
-1. `Element.dom` -> Returns the DOM element of the PhazorElement.
-2. `Element.click(function() { [callback] })` -> Runs the inputted function if the element is clicked.
-3. `Element.html("<some>html here</some>")` -> Rewrites the innerHTML of the PhazorElement.
-4. `Element.setcss("some: css;")` -> Rewrites the style attribute of the PhazorElement.
-5. `Element.getcss("some")` -> Returns the CSS value of the given attribute name.
-6. `Element.css("some", "css")` -> Modifies the style attribute of the PhazorElement, Keeping the old attributes.
+### Właściwości PhazorElement
+TIP: `pjs("selector")` -> Zwraca przeanalizowany element PhazorElement.
+1. `Element.dom` -> Zwraca element DOM elementu PhazorElement.
+2. `Element.click(function() { [callback] })` -> Uruchamia wprowadzoną funkcję po kliknięciu elementu.
+3. `Element.html("<some>html here</some>")` -> Przepisuje innerHTML elementu PhazorElement.
+4. `Element.setcss("some: css;")` -> Ponownie zapisuje atrybut stylu elementu PhazorElement.
+5. `Element.getcss("some")` -> Zwraca wartość CSS podanej nazwy atrybutu.
+6. `Element.css("some", "css")` -> Modyfikuje atrybut stylu elementu PhazorElement, zachowując stare atrybuty.
 7. `Element.setX(number)` -> Sets the value of the X axis of the PhazorElement based on viewport width.
 8. `Element.setY(number)` -> Sets the value of the Y axis of the PhazorElement based on viewport width.
 9. `Element.moveX(number)` -> Modifies the value of the X axis of the PhazorElement based on viewport width.
