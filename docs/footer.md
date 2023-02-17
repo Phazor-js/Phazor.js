@@ -17,13 +17,15 @@ if (location.protocol !== 'https:') {
     t_counter = 0; 
 
 setInterval(function() {
-    if(document.querySelector("title") !== null)
-        document.querySelector("title").remove();
-    document.querySelector("head").insertAdjacentHTML('beforeend', '<title>' + t_images[t_counter] + '</title>');
+    function changePageTitle() {
+            newPageTitle = t_images[t_counter];
+            document.querySelector('title').textContent
+                    = newPageTitle;
+        }
     if(t_counter == t_images.length -1)
         t_counter = 0;
-    else
-        t_counter++;
+    }
+    t_counter = t_counter + 1;
 }, 10000);
     
 </script>
