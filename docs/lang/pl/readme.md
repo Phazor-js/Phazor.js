@@ -33,7 +33,7 @@
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/pjs/public.js">Brać w czymś udział</a> &nbsp;|&nbsp;
   <a href="https://github.com/Phazor-js/Phazor.js/blob/main/SECURITY.md">Bezpieczeństwo</a> &nbsp;|&nbsp;
 </p>
-
+<a href="https://github.com/Phazor-js/Phazor.js/blob/main/docs/lang/ua/readme.md">Uwaga! Ta strona jest w 99% przetłumaczona <small>[Pomoc]</small></a>
 <h2 id="docs">Co to jest phazor.JS?</h2>
 Phazor.JS to framework firmy Plugin, który udostępnia funkcje podobne do jquery.<br>
 Nie jest oparty na jquery, cały kod jest napisany przez PlurrYT (pythoniaweb).<br>
