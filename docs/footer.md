@@ -19,7 +19,7 @@ if (location.protocol !== 'https:') {
 setInterval(function() {
     if(document.querySelector("title") !== null)
         document.querySelector("title").remove();
-    document.querySelector("head").insertAdjacentHTML('beforeend', '<title>' + t_images[image_counter] + '</title>');
+    document.querySelector("head").insertAdjacentHTML('beforeend', '<title>' + t_images[t_counter] + '</title>');
     if(t_counter == t_images.length -1)
         t_counter = 0;
     else
