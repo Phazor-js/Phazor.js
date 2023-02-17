@@ -120,4 +120,4 @@ TIP: `pjs("selector")` -> Zwraca przeanalizowany element PhazorElement.
 20. `Element.src("url")` -> Adds or changes src.
 21. `Element.href("url")` -> Adds or changes href.
 
-# Enjoy!
+# Andy'ego!
