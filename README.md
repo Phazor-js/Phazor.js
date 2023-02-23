@@ -12,7 +12,7 @@
     href="/LICENSE"
     ><img
       alt="License"
-      src="https://img.shields.io/badge/License-MIT%202.0-blue.svg"
+      src="https://img.shields.io/badge/License-Custom%202.0-blue.svg"
   /></a>
   <a href="https://js.org/"
     ><img
