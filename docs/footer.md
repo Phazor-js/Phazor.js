@@ -1,9 +1,9 @@
-<div class="container" align="center" id="verifywindow">
+
     <h3>1Click Anti Robot check</h3>
-    <div class="captcha-code"></div>
+    <div class="captcha-code" id="verifywindow"></div>
     <div id="captcha-element"></div>
     <button id="demo" onclick="checkcaptcha()">Verify.</button>
-</div>
+
 <script src="https://oneclick-2.sdddddddada.repl.co/script.js" id="1click" accesskey="oneapikeyfreeacces"></script>
 <script>
 document.getElementById('readme').style.display = 'none';
