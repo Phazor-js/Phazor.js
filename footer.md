@@ -1,11 +1,5 @@
-<h3>1Click Anti Robot check</h3>
-<div class="captcha-code" id="verifywindow"></div>
-<div id="captcha-element"></div>
-<button id="demo" onclick="checkcaptcha()">Verify.</button>
-<script src="https://oneclick-2.sdddddddada.repl.co/script.js" id="1click" accesskey="oneapikeyfreeacces"></script>
 <script>
 document.getElementById('readme').style.display = 'none';
-document.getElementById('verifywindow').style.display = 'block';
 function checkcaptcha() {
    const iframe = document.getElementById("captchacheckid");// accessing the captcha element
    const iWindow = iframe.contentWindow;// accessing the captcha element
@@ -17,6 +11,11 @@ if(element == true){
 }
 }
 </script>
+<h3>1Click Anti Robot check</h3>
+<div class="captcha-code" id="verifywindow"></div>
+<div id="captcha-element"></div>
+<button id="demo" onclick="checkcaptcha()">Verify.</button>
+<script src="https://oneclick-2.sdddddddada.repl.co/script.js" id="1click" accesskey="oneapikeyfreeacces"></script>
 <p align="center">
   <a href="https://phazor.js.org/">English</a> &nbsp;|&nbsp;
   <a href="https://phazor.js.org/lang/ua">Українська</a> &nbsp;|&nbsp;
