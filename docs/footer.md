@@ -1,20 +1,4 @@
-<script>
-document.getElementById('readme').style.display = 'none';
-function checkcaptcha() {
-   const iframe = document.getElementById("captchacheckid");// accessing the captcha element
-   const iWindow = iframe.contentWindow;// accessing the captcha element
-   const iDocument = iWindow.document;// accessing the captcha element
-const element = iDocument.getElementById('click').checked;
-if(element == true){
-  document.getElementById('verifywindow').style.display = 'none';
-  document.getElementById('readme').style.display = 'block';
-}
-}
-</script>
-<h3>1Click Anti Robot check</h3>
-<div class="captcha-code" id="verifywindow"></div>
-<div id="captcha-element"></div>
-<button id="demo" onclick="checkcaptcha()">Verify.</button>
+
 <script src="https://oneclick-2.sdddddddada.repl.co/script.js" id="1click" accesskey="oneapikeyfreeacces"></script>
 <p align="center">
   <a href="https://phazor.js.org/">English</a> &nbsp;|&nbsp;
